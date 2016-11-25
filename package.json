@@ -1,0 +1,19 @@
+{
+  "name": "mfg.vuejs",
+  "version": "0.0.1",
+  "description": "Vue.js learning project",
+  "scripts": {
+    "start": "static-server -p 5050"
+  },
+  "dependencies": {
+    "vue": "^2.1.3"
+  },
+  "devDependencies": {
+    "static-server": "^2.0.3"
+  },
+  "repository": {
+    "url": "git@github.com:haimich/mfg.vuejs.git",
+    "type": "git"
+  },
+  "license": "MIT"
+}
