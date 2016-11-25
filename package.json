@@ -3,13 +3,23 @@
   "version": "0.0.1",
   "description": "Vue.js learning project",
   "scripts": {
-    "start": "static-server -p 5050"
+    "bundle": "webpack --config webpack.config.js",
+    "prestart": "npm run bundle",
+    "start": "webpack-dev-server --port 5050 --inline --hot"
   },
   "dependencies": {
-    "vue": "^2.1.3"
+    "vue": "^2.1.3",
+    "vue-material": "^0.3.3"
   },
   "devDependencies": {
-    "static-server": "^2.0.3"
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.8",
+    "babel-preset-es2015": "^6.18.0",
+    "css-loader": "^0.26.0",
+    "static-server": "^2.0.3",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.3",
+    "webpack-dev-server": "^1.16.2"
   },
   "repository": {
     "url": "git@github.com:haimich/mfg.vuejs.git",
