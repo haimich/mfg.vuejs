@@ -6,6 +6,11 @@ module.exports = {
     filename: 'bundle.js'
   },
   devtool: 'source-map',
+  resolve: {
+    alias: {
+      'vue$': 'vue/dist/vue.common.js'
+    }
+  },
   module: {
     loaders: [
       {

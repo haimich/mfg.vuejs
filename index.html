@@ -1,19 +1,26 @@
 <!doctype html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>MFG</title>
 
-        <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700,400italic">
-        <link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons">
-    </head>
-    <body>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MFG</title>
 
-      <div id="app">
-          {{ message }}
-      </div>
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700,400italic">
+    <link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons">
+</head>
 
-      <script src="bundle.js"></script>
-    </body>
+<body>
+
+    <div id="app" v-md-theme="'default'">
+        <md-toolbar>
+            <div class="md-title">My App</div>
+        </md-toolbar>
+
+        <md-button>My Button</md-button>
+    </div>
+
+    <script src="bundle.js"></script>
+</body>
+
 </html>
